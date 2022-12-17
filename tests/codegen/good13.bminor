@@ -1,0 +1,89 @@
+// tests strings and string comparisions
+// and use of strings as local variables
+
+str:string = "hello";
+str2:string = "hello";
+str3: string = "world";
+str4: string;
+
+main:function integer () = {
+    str4 = "hello";
+
+    str5: string = "hello";
+
+    bad_str: string = "world";
+
+        // comparing literal and global
+         if (str == "hello") {
+            print "should be printed\n";
+         }  else {
+            print "should not be printed\n";
+         }
+        if (str != "hello") {
+            print "should not be printed\n";
+         }  else {
+            print "should be printed\n";
+         }
+        if (str == "world") {
+            print "should not be printed\n";
+         }  else {
+            print "should be printed\n";
+         }
+        if (str != "world") {
+            print "should be printed\n";
+         }  else {
+            print "should not be printed\n";
+         }
+
+
+        // two globals
+        if (str == str2) {
+            print "should be printed\n";
+         }  else {
+            print "should not be printed";
+         }
+        if (str != str2) {
+            print "should not be printed\n";
+         }  else {
+            print "should be printed\n";
+         }
+        if (str != str3) {
+            print "should be printed\n";
+         }  else {
+            print "should not be printed";
+         }
+        if (str == str3) {
+            print "should not be printed\n";
+         }  else {
+            print "should be printed\n";
+         }
+
+
+        // comparing global and local
+        if (str == str5) {
+            print "should be printed\n";
+         }  else {
+            print "should not be printed\n";
+         }
+        if (str != str5) {
+            print "should not be printed\n";
+         }  else {
+            print "should be printed\n";
+         }
+        if (str == bad_str) {
+            print "should not be printed\n";
+         }  else {
+            print "should be printed\n";
+         }
+        if (str != bad_str) {
+            print "should be printed\n";
+         }  else {
+            print "should not be printed\n";
+         }
+
+
+
+
+
+
+}

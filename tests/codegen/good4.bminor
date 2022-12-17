@@ -1,0 +1,32 @@
+// tests function calls for booleans and chars 
+
+i: boolean = true;
+a: char = 'h';
+b: char;
+
+f_char: function char (x: char) = {
+    print x, "\n";
+    return x;
+}
+
+f_bool: function boolean (s: boolean) = {
+    print s, "\n";
+    return s;
+}
+
+main:function integer () =
+{
+    b = a;
+    c: char = 'b';
+    z: boolean = false;
+
+    print "testing function calls with global, literal, local, and reassigned strings: \n";
+    print f_char(a), f_char(b), f_char(c), f_bool(i);
+    print f_bool(true), f_bool(false), f_bool(z), "\n";
+    
+    charrr:char = '\t';
+    print charrr;
+    print '\n', '\t', '\?', '\\';
+
+    return 0;	
+}

@@ -1,0 +1,9 @@
+// tests auto 
+x: auto = 1;
+a: auto = {1,2,3,4};
+b: auto = true;
+c: auto = 'c';
+
+main: function integer () = {
+	print x, a[1], b, c;
+}

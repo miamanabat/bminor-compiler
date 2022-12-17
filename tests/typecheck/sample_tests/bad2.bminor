@@ -1,0 +1,16 @@
+/* Cannot use a function without declaring it. */
+
+x: integer = 5;
+y: integer = 10;
+
+main: function void ()=
+{
+	x:integer = y * 10 + 15 - test();
+}
+
+test: function char () =
+{
+	return 'a';
+}
+	
+

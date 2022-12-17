@@ -1,0 +1,26 @@
+// nested blocks and stuff
+
+main:function integer () =
+{
+    b: integer = 9;
+    print b;
+    if (true){
+        z: integer = 4;
+        print z, "\n";
+    }
+    if (true) {
+        c: integer = 3;
+        print b, " ", c, "\n";
+    }
+
+    {
+        var: integer = 1;
+        print var;
+             {
+                var2: integer = 2;
+                print var, var2;
+             }
+        print var;
+    }
+    return 0;
+}

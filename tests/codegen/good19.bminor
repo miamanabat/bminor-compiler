@@ -1,0 +1,22 @@
+// some fun standard library fun stuff
+fd:integer;
+fgets:function integer (s:string, size:integer, file:integer);
+fopen:function integer (path:string, mode:string);
+strcmp:function integer (s1:string, s2:string);
+
+main:function integer () = {
+
+    // try reading with fgets
+    buff:string = "bufferrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr";
+    fd:integer = fopen("expr.c","r");
+    if (fd == 0) return 0;
+    status: integer = fgets(buff, 4096, fd);
+    for(;status != 0;) {
+        if(strcmp(buff, "fd:integer;\n") == 0)
+            print "yes!\n";
+        print buff;
+        status = fgets(buff, 4096, fd);
+    }
+
+    return 0;
+}

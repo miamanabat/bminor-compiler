@@ -1,0 +1,13 @@
+// for loops, if statements, print statements
+f: function integer () ={
+    i: integer = 0;
+       for (i; i < 5; i++) {
+            print i, i*i, f();
+       }
+       if (3 != 4 + i) {
+            print "sad";
+       } else {
+            print "oof";
+       }
+    return 3;
+}

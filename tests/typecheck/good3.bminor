@@ -1,0 +1,11 @@
+// arithmetic tests
+x: integer;
+y: boolean;
+fxn: function integer (a: boolean, z: integer) = {
+    z = x + 3 - 4 * z / x;
+    z++;
+    -z--;
+    x = 3^z^x;
+    x = z % x + 2;
+    return x + z^2;
+}

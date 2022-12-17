@@ -1,0 +1,7 @@
+// array not consistent
+arr: array[1] array[3] array[2] integer = {{{1,2},{3,4}, {5,'c'}}};
+
+fxn: function boolean () = {
+    arr = {{{1,2}, {3, 4}, {5,6}}};
+    return true;     
+}

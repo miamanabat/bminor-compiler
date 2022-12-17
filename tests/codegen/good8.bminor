@@ -1,0 +1,32 @@
+// for loops with less expressions 
+x:integer=5;
+
+main:function integer () = {
+	
+    i: integer = 0;
+
+       for (i = 0; i < 4; i++) {
+            print i;
+       }
+        print "\n";
+        i = 0;
+       for (; i < 4; i++) {
+            print i;
+       }
+        print "\n";
+
+       for (i=0; i < 4; ) {
+            print i;
+            i = i+1;
+       }
+        print "\n";
+
+       for (i = 0; ; i++) {
+           if (i >= 4 ) {
+                return 0;
+           }
+            print i;
+       }
+        print "\n";
+        
+}

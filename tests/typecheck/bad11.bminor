@@ -1,0 +1,4 @@
+f: function auto () = {
+    if (true) return 10;
+    else return;
+   }

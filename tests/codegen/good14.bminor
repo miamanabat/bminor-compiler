@@ -1,0 +1,8 @@
+// tests exponents 
+x:integer = 2;
+main: function integer () =
+{
+    print " should be 64 and 0: \n";
+    print (x^6), " ", (x^-4), "\n";	
+    return x;
+}

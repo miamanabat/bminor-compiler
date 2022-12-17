@@ -1,0 +1,24 @@
+// if else statements
+/* if else with no blocks, else ifs etc.*/ 
+main:function integer () =
+{
+    if (true && false) {
+        print "should not be printed\n";
+    } else if (true || false) {
+        print "should be printed\n";
+    } else {
+        print "should not be printed\n";
+    }
+
+    if (!true) 
+        print "should not be printed\n";
+    else if (!false)
+        print "should be printed\n";
+    else
+        print "should not be printed\n";
+
+    if (true)
+        if (true) print "should be printed\n";
+        else print "should not be printed\n";
+    return 0;
+}

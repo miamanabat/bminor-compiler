@@ -1,0 +1,44 @@
+// comparing chars, ints, bools
+x: integer = 5;
+y: integer = 4;
+z: integer = 5;
+
+a: char = 'a';
+b: char = 'b';
+c: char = 'a';
+
+t: boolean = true;
+f: boolean = false;
+
+main:function integer () = {
+	print "x > y should be true: ", x>y, "\n";
+	print "x >= y should be true: ", x>=y, "\n";
+	print "x < y should be false: ", x<y, "\n";
+	print "x <= y should be false: ", x<=y, "\n";
+	print "x == y should be false: ", x==y, "\n";
+	print "x != y should be true: ", x!=y, "\n";
+  
+	print "x > z should be false: ", x>z, "\n";
+	print "x >= z should be true: ", x>=z, "\n";
+	print "x < z should be false: ", x<z, "\n";
+	print "x <= z should be true: ", x<=z, "\n";
+	print "x == z should be true: ", x==z, "\n";
+	print "x != z should be false: ", x!=z, "\n";
+
+
+    print "true == false should be false: ", t==f, "\n";
+    print "true == true should be true: ", t==t, "\n";
+    print "false == false should be true: ", f==f, "\n";
+    
+    print "true != false should be true: ", t!=f, "\n";
+    print "true != true should be false: ", t!=t, "\n";
+    print "false != false should be false: ", f!=f, "\n";
+
+
+    print "a == b should be false: ", a==b, "\n";
+    print "a != b should be true: ", a!=b, "\n";
+    print "a == c should be true: ", a==c, "\n";
+    print "a != c should be false: ", a!=c, "\n";
+
+
+}

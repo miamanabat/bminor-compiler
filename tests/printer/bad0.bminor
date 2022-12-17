@@ -1,0 +1,4 @@
+/* assignment without type */
+f: function void () = {
+    a: number = "dog" + "says" + "hello!";
+}

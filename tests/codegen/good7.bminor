@@ -1,0 +1,21 @@
+// function calls, no args, one arg, multiple args
+x:integer = 5;
+y: boolean = true;
+
+nothing: function boolean () = {
+    print "hey no args worked\n";
+    return true;
+}
+onearg: function boolean (i: integer) = {
+    print i, "yay one arg worked\n";
+    return true;
+}
+
+multargs: function boolean(i: integer, a: boolean) = {
+    print i, a, "yay two args worked\n";
+    return true;
+}
+
+main:function integer () = {
+	print nothing(), onearg(2), multargs(2, true);
+}

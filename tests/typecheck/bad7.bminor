@@ -1,0 +1,5 @@
+// function no return statement
+f: function auto (x: integer) = {
+    x = x + x;
+    x = (x > 4) ? x : x+2;
+   }

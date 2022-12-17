@@ -1,0 +1,6 @@
+// function inconsistent return types - void and boolean
+fxn: function void () ={
+    
+    return true;
+     }
+

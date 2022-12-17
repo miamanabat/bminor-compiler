@@ -1,0 +1,2 @@
+/* using a keyword for an ident */
+integer : auto = "dont.";

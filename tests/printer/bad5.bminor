@@ -1,0 +1,2 @@
+/* array init is empty */
+a: array = {};

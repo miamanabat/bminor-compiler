@@ -1,0 +1,6 @@
+// bad ternary operator
+func: function boolean () = {
+    x: integer = 0;
+    y: boolean = true ? x : -x;
+    return y;
+      }

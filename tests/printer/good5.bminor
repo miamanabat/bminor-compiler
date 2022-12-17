@@ -1,0 +1,19 @@
+/* assignment and ternary */
+fxn: function void (x: integer) = {
+         {{{{{{
+x = b = c;
+x = (b= c);
+(x=b) = c;
+(x=b=c);
+{{{{{{{{{{}}}}}}}}}}
+a ? b : c;
+a ? a ? b: c : d;
+a?b:c ? b : c;
+a = b ? (c = d) : e?f:g;
+(a = b) = c ? ((d = e) = (f) = (g=d) ): k;
+              }}}}}}
+{{{{{{{}}}}}}}
+{{{{}}}}
+{{}}
+{}
+}

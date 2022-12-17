@@ -1,0 +1,4 @@
+/* double operators */
+f: function void () = {
+    3++5 // 6;
+      }

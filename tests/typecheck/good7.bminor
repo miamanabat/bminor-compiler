@@ -1,0 +1,5 @@
+// arrays and changing an element, indexing
+a: array[2] auto = {{'c', 'a', 'c'}, {'b', 'd', 'd'}};
+f: function void () = {
+    a[2][2] = 't';
+   }

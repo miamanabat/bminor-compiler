@@ -1,0 +1,10 @@
+// tests ternary 
+x:integer=10;
+main:function integer () =
+{
+    y: integer = -3 + 2 * 6; // should be 9
+    a: auto = y > x ? x : y;
+    print a, " should be 9\n";
+    return 0;	
+	
+}

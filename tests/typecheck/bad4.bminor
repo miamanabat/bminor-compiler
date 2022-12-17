@@ -1,0 +1,8 @@
+// function call and mismatched types
+main: function integer (b: boolean) = {
+        return 0;
+      }
+
+f: function boolean (b: boolean) = {
+    return main(true);
+   }

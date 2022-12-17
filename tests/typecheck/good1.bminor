@@ -1,0 +1,15 @@
+// function prototypes and their definitions
+f: function void ();
+f: function void () = {
+    return;
+   }
+f2: function auto (y: integer) = {
+    x: integer = 4;
+    return x;
+
+    if (true) {
+        return x + 5;
+    }
+
+    }
+f2: function auto (z: integer);

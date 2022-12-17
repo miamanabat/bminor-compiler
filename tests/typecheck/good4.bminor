@@ -1,0 +1,7 @@
+// boolean expressions
+fxn: function boolean () = {
+    bool1: boolean = true;
+    bool2: boolean;
+    bool2 = bool1 && false || true || !false;
+    return bool1 || bool2; 
+}

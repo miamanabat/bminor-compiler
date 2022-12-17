@@ -1,0 +1,19 @@
+// increment, decrement, negating 
+arr: array [4] integer = {1, 2, 3, 4};
+main:function integer ()= {
+    x: integer = 0;
+    y:integer = 1;
+    
+    a: integer = x++;
+    print "a should be 0, x should be 1: ", a, x, "\n";
+
+    a = y--;
+    print "a should be 1, y should be 0: ", a, y, "\n";	
+
+    a = -x;
+    print "a should be -1, x should be 1: ", a, x, "\n";
+
+    print "this should be 3, 4, 4, 3\n";
+    print arr[2]++, arr[2], arr[3]--, arr[3], "\n";
+}
+

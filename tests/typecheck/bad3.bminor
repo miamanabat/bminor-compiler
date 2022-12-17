@@ -1,0 +1,3 @@
+// declare non-literal in global scope
+x: integer = 3;
+y: integer = x;

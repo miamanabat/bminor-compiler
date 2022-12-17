@@ -1,0 +1,47 @@
+// tests function calls for strings and integers 
+
+str:string = "hello";
+str2:string = " world";
+i: integer = 76;
+
+arr: array [4] integer = {1,2,3,4};
+
+func: function boolean(x: integer) = {
+    //print x;
+    return x == 2;
+      }
+
+f_int: function integer (x: integer) = {
+    return x;
+}
+
+f_str: function string (s: string) = {
+    //print s, "\n";
+    return s;
+}
+
+main:function integer () =
+{
+
+ 
+    print arr[0]," ", arr[1], " ", arr[2], " ", arr[3], "\n"; 
+
+    print "int args (false, true true) ", func(arr[0]), func(arr[1]), func(2), "\n";
+
+    print "(76, 76)", i, " ", 76, " \n";
+    i = 67;
+    print "(67, 76, 67, 67) ", i, i + 9, f_int(i), f_int(67), "\n";
+
+
+
+    s: string = "hello";
+    str2 = "hello";
+    str3: string = str2;
+
+
+    print "testing function calls with global, literal, local, and reassigned strings: \n";
+    print "string args (hello, hello, hello, hello, hello) ", f_str(str), f_str("hello"), f_str("hello"), f_str(str2), f_str(str3), "\n";
+    
+
+    return 0;	
+}

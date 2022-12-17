@@ -1,0 +1,4 @@
+/* Cannot assign a character to a global integer. */
+
+x: integer = 'c';
+

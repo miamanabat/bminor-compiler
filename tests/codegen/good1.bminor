@@ -1,0 +1,49 @@
+// tests arithmetic stuff 
+
+str:string = "hello";
+str2:string = " world";
+
+arr: array [4] integer = {1,2,3,4};
+
+func: function boolean(x: integer) = {
+    print x;
+    return x == 2;
+      }
+main:function integer () =
+{
+    if (3 >= 1) {
+        print "3 is greater than 1\n";
+    }
+ 
+    print arr[0]," ", arr[1], " ", arr[2], " ", arr[3], "\n";
+    print "yes\n";
+    arr[0] = 234;
+    arr[1] = 45;
+    arr[2] = 11;
+    arr[3] = 12;
+    
+    print arr[0]," ", arr[1], " ", arr[2], " ", arr[3], "\n";
+
+    //print func(arr[0]), func(arr[1]), func(2);
+
+    print 1 + 2, "\n";
+
+    x: integer = 0;
+    x = x + 1; 
+    print x; 
+    print " should be 1\n";
+
+    x = x - 1; 
+    print x; print " should be 0\n";
+    x = 6;
+    x = x * x; print x; print " should be 36\n";
+    x = x / x; print x; print " should be 1\n";
+    x = 2;
+    print x % 2; print " should be 0\n";
+    print x^2; print " should be 4\n";
+    print x^2^3; print " should be 256\n";
+
+    
+
+    return 0;	
+}

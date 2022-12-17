@@ -1,0 +1,6 @@
+// function redefined with different parameters
+f1: function auto (a: boolean) = {
+    return 5;
+}
+f2: function integer (); 
+f1: function integer (a: boolean);

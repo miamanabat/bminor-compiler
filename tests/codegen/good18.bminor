@@ -1,0 +1,17 @@
+/*
+nested for loops
+*/
+
+main: function void () =
+{
+	i: integer;
+	j: integer;
+	
+	for(j=0;j<10;j++) {
+		for(i=0;i<10;i++) {
+            print i, j;
+		}
+		print "\n";
+	}
+}
+

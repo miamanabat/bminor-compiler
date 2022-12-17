@@ -1,0 +1,6 @@
+// if statements without boolean in the condition
+f: function boolean (x: string) = {
+    if (x) return true;
+    else if (!x) return false;
+
+}

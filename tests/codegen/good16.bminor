@@ -1,0 +1,8 @@
+// pemdas checks
+main:function integer () =
+{
+    a: integer = 1;
+    x: integer = 4 *3 / 1 + 5 - (3^(a+++1)^2);
+    print "a should be 2, x should be -64:\n";
+    print a, " ", x, "\n";	
+}

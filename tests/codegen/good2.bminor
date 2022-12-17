@@ -1,0 +1,22 @@
+// tests arrays !!  
+
+str:string = "hello";
+str2:string = " world";
+
+arr: array [4] integer = {1,2,3,4};
+
+main:function integer () =
+{
+ 
+    print arr[0]," ", arr[1], " ", arr[2], " ", arr[3], "\n";
+    arr[0] = -23;
+    arr[1] = 45;
+    arr[2] = 11;
+    arr[3] = 12;
+    
+    print arr[0],": -23 ", arr[1], ": 45  ", arr[2], ": 11 ", arr[3], ": 12 \n";
+
+    arr[0] = arr[1] + arr[2];
+    print arr[0], " should be 56\n";
+    return 0;	
+}

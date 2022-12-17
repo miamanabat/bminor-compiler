@@ -1,0 +1,12 @@
+// comparisons and such
+a: integer = 1;
+b: integer = 2;
+c: boolean = false;
+s: string = "hello";
+str: string = "ohno";
+f: function boolean () = {
+    return (a> b) && (a < b) || (a <= b);
+    return true;
+    return (a>= b) && (a != b) || (a == b);
+    return (s==str) || (s!=str);
+   }

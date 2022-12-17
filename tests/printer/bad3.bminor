@@ -1,0 +1,4 @@
+/* array indexing with statement inside */
+x: function boolean() = {
+    omg[90]["this" + is+ bad;];
+   }

@@ -1,0 +1,5 @@
+/* statements not in function!! */
+
+print "no";
+if (true) return false;
+x = a;

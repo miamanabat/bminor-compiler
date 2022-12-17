@@ -1,0 +1,4 @@
+/* expression list has an extra comma */
+f: function void () ={
+func_callll(2,3,noooooo,);
+      }

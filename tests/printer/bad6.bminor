@@ -1,0 +1,12 @@
+/* unmatched else statements */
+
+f : function void () = {
+    if (true){
+        return "ok";
+    } else {
+        return 2345;
+    } else{
+        print "oh no";
+        return "this is unmatched how sad";
+    }
+}

@@ -1,0 +1,6 @@
+// ternary and assignment!
+x: integer = 9;
+f: function void () = {
+    x = (x >x || x < x) ? 123 : 456;
+    b: boolean = true? false: false;
+   }

@@ -1,0 +1,7 @@
+/* for loop with one less param */
+f : function void () = {
+
+    for (73;) {
+        "is" * "this" - false;
+    }
+}

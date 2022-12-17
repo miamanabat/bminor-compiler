@@ -1,0 +1,8 @@
+// ands and ors and not 
+x:integer = 5;
+main:function integer () =
+{
+	print "true: ", true&&true, " false: ", true&&false, ", true: ", true||false, "\n";
+
+    print "false: ", !true, ", false: ", !true, ", true: ", !!true, "\n";
+}
