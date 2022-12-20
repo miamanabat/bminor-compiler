@@ -1,4 +1,4 @@
-Bminor Compiler Project
+# Bminor Compiler Project
 -------------------------------
 
 This was a project completed in CSE 40243 at the University of Notre Dame. Given a C-like language, we wrote different stages of a compiler using tools like flex and bison to ultimately generate a set of assembly instructions. The language we implemented for the compiler, B-minor, includes expressions, basic control flow, recursive functions, and strict type checking. It is object-code compatible with ordinary C and thus can take advantage of the standard C library, within its defined types.
