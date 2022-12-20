@@ -18,7 +18,7 @@ gcc -g myprogram.s library.c -o myprogram
 ./myprogram
 ```
 
-#Language Overview
+# Language Overview
 ## Whitespace and Comments
 In B-minor, whitespace is any combination of the following characters: tabs, spaces, linefeed (\n), and carriage return (\r). The placement of whitespace is not significant in B-minor. Both C-style and C++-style comments are valid in B-minor:
 
